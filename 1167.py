@@ -22,8 +22,8 @@ for _ in range(vertex_amount):
     ipt = list(map(int, input().split()))
     vertex_map[ipt[0]].setLine(ipt)
 
-max_length = -1
+max_distance = -1
 
 for base in range(1, LEN):
-    distance_map = [0 for _ in range[LEN]]
+    distance_map = [0 for _ in range(LEN)]
 
